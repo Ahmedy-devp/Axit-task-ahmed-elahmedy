@@ -1,0 +1,553 @@
+/* Basics */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  color: #fff;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+/* start Global styles */
+h2 {
+  display: inline-block;
+  font-size: 70px;
+  font-weight: bold;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+hr {
+  width: 13%;
+  border: 1px solid transparent;
+  background-color: rgb(243, 136, 36);
+  margin: 5% 0;
+}
+h2 span {
+  color: orange;
+  font-weight: 300;
+}
+ul {
+  list-style: none;
+}
+.btn {
+  background: none;
+  padding: 10px 30px;
+  margin: 5% 0 20%;
+  border: solid 2px white;
+  text-transform: capitalize;
+  font-size: 18px;
+  cursor: pointer;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.507);
+}
+.clear {
+  clear: both;
+}
+.border-radius-top {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.border-radius-bottom {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.main-heading {
+  text-align: center;
+}
+.special-heading {
+  font-size: 50px;
+  color: rgb(54, 54, 54);
+  padding-top: 8%;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.special-line {
+  width: 5%;
+  margin: 2% auto;
+}
+.special-paragraph {
+  font-size: 20px;
+}
+.black-background {
+  background: #333333;
+}
+.grey-background {
+  background-color: rgb(238, 238, 238);
+}
+.grey-color {
+  color: #b4b4b4;
+}
+.primary-background {
+  background-color: rgb(243, 136, 36);
+}
+.primary-color {
+  color: rgb(243, 136, 36);
+}
+.f-25 {
+  font-size: 25px;
+}
+.white-text {
+  color: white;
+}
+.black-text {
+  color: #333333;
+}
+/* end global styles */
+/* ------------------------------------------------------------------------------------------------ */
+/* Main container */
+.container {
+  width: 70%;
+  margin: auto;
+}
+/* end main container */
+/* ------------------------------------------------------------------------------------------------ */
+
+/* Navbar */
+.navbar {
+  background-color: #000;
+}
+.navbar ul {
+  float: right;
+  width: 55%;
+  padding: 35px 0;
+}
+.navbar ul li {
+  display: inline-block;
+  margin-left: 9%;
+  font-size: 23px;
+}
+.navbar a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+/* ------------------------------------------------------------------------------------------------ */
+/* landing page */
+#header {
+  background-image: url("../images/pexels-pixabay-302769.jpg");
+  background-size: cover;
+}
+
+/* left box */
+.left-box {
+  display: inline-block;
+  padding-top: 10%;
+  width: 60%;
+}
+.left-box h2 {
+  font-size: 120px;
+}
+.left-box h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+  width: 75%;
+  font-weight: 300;
+}
+.left-box hr {
+  width: 10%;
+  margin: 4% 0;
+  border: solid 1px white;
+}
+.left-box p {
+  font-size: 20px;
+  width: 70%;
+}
+
+/* right box */
+.right-box {
+  float: right;
+  width: 30%;
+  margin-top: 17%;
+  background-color: #fff;
+}
+.right-box h3 {
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 25px;
+  width: 100%;
+  text-transform: capitalize;
+}
+.right-box h3 span {
+  color: rgb(243, 136, 36);
+}
+.right-box .w-40 {
+  width: 80%;
+  margin-top: 35px;
+  padding: 10px;
+  margin-left: 40px;
+  border-top: white;
+  border-right: white;
+  border-left: white;
+  border-bottom: solid 2px rgb(204, 201, 201);
+}
+.right-box input:focus {
+  outline: none;
+}
+.right-box .secondary-btn {
+  width: 100%;
+  margin-top: 50px;
+  padding: 15px 0;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+/* ------------------------------------------------------------------------------------------------ */
+/* socials section */
+#socials {
+  box-shadow: 0 8px 7px -8px #888888;
+  position: relative;
+}
+/* left socials */
+.left-socials {
+  display: inline-block;
+  width: 40%;
+}
+.left-socials h3 {
+  color: black;
+  font-size: 45px;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+.left-socials p {
+  margin: 10px 0 20px;
+  font-size: 18px;
+}
+/* right socials */
+.right-socials {
+  float: right;
+  margin-top: 50px;
+}
+.right-socials i {
+  margin-right: 70px;
+  font-size: 50px;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+/* mirror section */
+
+/* left mirror */
+.left-mirror {
+  display: inline-block;
+  width: 8%;
+  margin: 10% 0;
+}
+.left-mirror li {
+  padding: 40% 0;
+  background-color: rgb(41, 40, 40);
+  text-align: center;
+  border-bottom: solid 1px #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.left-mirror .active {
+  background-color: rgb(243, 136, 36);
+}
+/* middle mirror */
+.middle-mirror {
+  display: inline-block;
+  width: 43%;
+  margin-left: 9%;
+}
+.middle-mirror h3 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.middle-mirror p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.middle-mirror .btn-primary {
+  padding: 3% 6%;
+  border: transparent;
+  border-radius: 4px;
+  font-size: 17px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+/* right mirror */
+.right-mirror {
+  float: right;
+  width: 35%;
+  margin-top: 10%;
+}
+.right-mirror img {
+  width: 80%;
+  -webkit-box-reflect: below 0px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+/* ------------------------------------------------------------------------------------------------ */
+/* sub-list section */
+/* left-list */
+.left-list {
+  width: 35%;
+  display: inline-block;
+  margin: 10% 0;
+}
+.left-list img {
+  width: 100%;
+  box-shadow: 0 3px 27px 14px #c3c3c3;
+}
+/* right-list */
+.right-list {
+  float: right;
+  width: 40%;
+  margin: 11% 0 0 5%;
+}
+.right-list h3 {
+  font-size: 30px;
+}
+
+.right-list p {
+  font-size: 18px;
+}
+.right-list .box {
+  margin-top: 10%;
+}
+.right-list .box i {
+  font-size: 18px;
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 2.4;
+  border: 2px solid rgb(243, 136, 36);
+  border-radius: 50%;
+}
+.right-list .box .small-right {
+  float: right;
+  width: 80%;
+}
+/* ------------------------------------------------------------------------------------------------ */
+/* picture section */
+
+/* left-side */
+.left-side {
+  display: inline-block;
+  width: 43%;
+  padding: 10% 0;
+}
+
+.left-side p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+/* right-side */
+.right-side {
+  width: 35%;
+  float: right;
+  margin: 10% 0;
+}
+.right-side img {
+  width: 100%;
+  box-shadow: 0 3px 27px 14px #c3c3c3;
+}
+/* ------------------------------------------------------------------------------------------------ */
+/* features */
+#features .box {
+  display: inline-block;
+  width: 30%;
+  margin-top: 5%;
+  text-align: center;
+}
+#features .box:nth-child(2) {
+  margin: 0 50px;
+}
+
+#features .box i {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 1.8;
+  text-align: center;
+  border: 2px solid rgb(243, 136, 36);
+}
+#features .box h4 {
+  text-transform: capitalize;
+  margin-top: 10%;
+}
+#features .box p {
+  margin: 20px 0 20%;
+}
+/* ------------------------------------------------------------------------------------------------ */
+/* pricing */
+
+#pricing .price {
+  display: inline-block;
+  width: calc(100% / 3 - 26px);
+  text-align: center;
+  margin: 10% 0;
+}
+#pricing .price:nth-child(2) {
+  margin: 0 35px;
+}
+#pricing .price h4 {
+  padding: 5% 0;
+  border-bottom: 1px solid white;
+
+  text-transform: capitalize;
+}
+#pricing .price h3 {
+  font-size: 90px;
+  padding-top: 20px;
+}
+#pricing .price p:nth-child(3) {
+  padding: 20px 0;
+  text-transform: capitalize;
+  font-style: italic;
+}
+#pricing .price .special-price {
+  font-size: 17px;
+
+  padding: 15px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#pricing .price .small-num {
+  font-size: 35px;
+}
+
+#pricing .price hr {
+  width: 100%;
+  margin: 0 auto;
+  border: 4px solid rgb(243, 136, 36);
+}
+#pricing .price ul {
+  background: white;
+}
+#pricing .price ul li {
+  padding: 3% 0;
+  border-bottom: solid 1px #f9f9f9;
+  text-transform: uppercase;
+}
+/* ------------------------------------------------------------------------------------------------ */
+/* start reviews */
+#reviews .box {
+  display: inline-block;
+  width: calc(100% / 3 - 130px);
+  margin: 5% 0;
+}
+#reviews .box:nth-child(even) {
+  margin: 0 7.1%;
+}
+.opinion {
+  padding: 8% 5%;
+  position: relative;
+  border-radius: 4px;
+}
+.opinion::before {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 30px;
+  border-top: solid 15px rgb(238, 238, 238);
+  border-bottom: solid 46px transparent;
+  border-right: solid 14px transparent;
+  border-left: solid 11px transparent;
+}
+#reviews .box img {
+  width: 17%;
+  border-radius: 50%;
+  margin: 24px 0 0 14px;
+}
+#reviews .box .bottom {
+  display: inline-block;
+}
+#reviews .box .bottom .right-bottom {
+  display: inline-block;
+  margin-left: 15px;
+}
+#reviews .box .bottom .right-bottom h4 {
+  color: #333333;
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+/* end reviews */
+/* ------------------------------------------------------------------------------------------------ */
+/* start stylish */
+#stylish {
+  background: url(../images/pedestrian-architecture-people-road-street-sidewalk-971390-pxhere.com.jpg);
+}
+#stylish .special-heading,
+#stylish .special-paragraph {
+  color: white;
+}
+#stylish .special-line {
+  border-color: white;
+}
+#stylish .btn {
+  margin-bottom: 5%;
+}
+/* end stylish */
+/* ------------------------------------------------------------------------------------------------ */
+/* start contact */
+.left-contact {
+  display: inline-block;
+  width: 45%;
+  margin-top: 5%;
+}
+.left-contact input {
+  width: 100%;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: solid 1px #b4b4b4;
+  margin-top: 5%;
+  padding: 2% 3%;
+}
+.left-contact input:focus {
+  outline: none;
+}
+.left-contact input::placeholder {
+  color: #b4b4b4;
+}
+.right-contact {
+  width: 50%;
+  float: right;
+  margin-top: 7.8%;
+}
+.right-contact textarea {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: solid 1px #b4b4b4;
+  color: #b4b4b4;
+  resize: none;
+  font-size: 16px;
+}
+.right-contact textarea:focus {
+  outline: none;
+}
+#contact .btn-primary {
+  padding: 1% 2%;
+  border: none;
+  border-radius: 4px;
+  font-size: 17px;
+  margin: 5% auto;
+  display: block;
+  cursor: pointer;
+}
+/* end contact */
+/* ------------------------------------------------------------------------------------------------ */
+/* start footer */
+footer {
+  background: black;
+  text-align: center;
+}
+.top-footer {
+  padding-top: 30px;
+}
+.top-footer i {
+  font-size: 30px;
+  margin-right: 40px;
+}
+.bottom-footer {
+  padding: 20px 0;
+}
+/* end footer */
+/* ------------------------------------------------------------------------------------------------ */
